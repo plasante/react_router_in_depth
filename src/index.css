@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary: #bc4123;
+    --secondary: #2b3452;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--secondary);
+}
+
+* {
+    color: #fff;
+    margin: 0;
+}
+
+p {
+    margin: 20px 0;
+}
+
+button {
+    border: 0;
+    padding: 8px;
+    border-radius: 4px;
+    color: white;
+    background: var(--primary);
+    cursor: pointer;
+}
+
+header nav {
+    display: flex;
+    gap: 16px;
+    justify-content: end;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header nav h1 {
+    margin-right: auto;
+    border-bottom: 3px solid var(--primary);
+}
+
+header nav a {
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+header nav a:active {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+}
+
+.active-link {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+}
+
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.help-layout nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.help-layout nav a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.faq .question {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 5px 20px;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+form {
+    margin-top: 30px;
+}
+
+form input, form label span, form textarea {
+    display: block;
+}
+
+form input, form textarea {
+    margin-bottom: 30px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 0;
+    width: 300px;
+    color: var(--secondary);
+}
+
+form label span {
+    margin-bottom: 10px;
+}

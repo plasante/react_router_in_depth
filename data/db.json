@@ -1,0 +1,34 @@
+{
+  "careers": [
+    {
+      "id": 1,
+      "title": "Senior React Developer",
+      "salary": 50000,
+      "location": "London, UK"
+    },
+    {
+      "id": 2,
+      "title": "Plumber",
+      "salary": 40000,
+      "location": "Montreal, CA"
+    },
+    {
+      "id": 3,
+      "title": "Full Stack Web Dev",
+      "salary": 90000,
+      "location": "Mascouche, CA"
+    },
+    {
+      "id": 4,
+      "title": "Website Manager",
+      "salary": 40000,
+      "location": "Montreal, CA"
+    },
+    {
+      "id": 5,
+      "title": "Food Tester",
+      "salary": 20000,
+      "location": "Mascouche, CA"
+    }
+  ]
+}

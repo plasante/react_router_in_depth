@@ -27,6 +27,12 @@ const RootLayout = () => {
                     >
                         Help
                     </NavLink>
+                    <NavLink
+                        to="/careers"
+                        className={activeLink === '/careers' ? 'active-link' : ''}
+                    >
+                        Careers
+                    </NavLink>
                 </nav>
             </header>
 

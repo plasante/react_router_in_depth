@@ -12,7 +12,6 @@ import {Contact} from "./pages/help/Contact";
 import RootLayout from "./layouts/RouteLayout";
 import {HelpLayout} from "./layouts/HelpLayout";
 import {PageNotFound} from "./pages/PageNotFound";
-import {CareersLayout} from "./layouts/CareersLayout";
 
 const Careers = lazy(() => import("./pages/careers/Careers"));
 
@@ -28,13 +27,7 @@ const App = () => {
                         <Route path={'faq'} element={<Faq />}/>
                         <Route path={'contact'} element={<Contact />}/>
                     </Route>
-                </Route>
-
-                <Route path={'careers'} element={<CareersLayout />}>
-                    <Route
-                        path={'careers'}
-                        element={<Careers />}
-                    />
+                    <Route path={'careers'} element={<Careers />}/>
                 </Route>
 
                 <Route path={'*'} element={<PageNotFound />}/>
